@@ -5,7 +5,7 @@ const { StronaGlowna, Logowanie } = Pages;
 
 const routes = {
   "/": () => <StronaGlown />,
-  "?logowanie": () => <Logowanie />
+  "/logowanie": () => <Logowanie />
 };
 
 export default routes;
